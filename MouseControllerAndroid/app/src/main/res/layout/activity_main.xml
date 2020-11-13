@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toTopOf="@+id/rightClickBtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/leftClickBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Left Click"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rightClickBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/rightClickBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Right Click"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/leftClickBtn" />
+
+    <View
+        android:id="@+id/touchView"
+        android:layout_width="311dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="#CCC8C8"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/ipaddressTv"
+        android:layout_width="184dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="192.168.1.6:5000"
+        android:inputType="text"
+        android:text="192.168.1.6:5000"
+        app:layout_constraintEnd_toStartOf="@+id/saveBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="SAVE"
+        app:layout_constraintBottom_toBottomOf="@+id/ipaddressTv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ipaddressTv"
+        app:layout_constraintTop_toTopOf="@+id/ipaddressTv"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="180dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Sensitivity (1-5)"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/sensitivityTv"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ipaddressTv" />
+
+    <EditText
+        android:id="@+id/sensitivityTv"
+        android:layout_width="44dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="1"
+        android:hint="1-5"
+        android:inputType="number"
+        android:text="2"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

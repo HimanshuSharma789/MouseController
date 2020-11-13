@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33337708-07a5-49e7-93ee-48de5608936e" name="Default Changelist" comment="First Commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kESQNgVZ1tuw42nLWS0XXMCSF7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MouseControllerAndroid" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33337708-07a5-49e7-93ee-48de5608936e" name="Default Changelist" comment="" />
+      <created>1605264240932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605264240932</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1605265515532">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605265515532" />
+    <state x="277" y="62" key="SettingsEditor" timestamp="1605265652902">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1605265652902" />
+  </component>
+</project>
